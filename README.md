@@ -1,12 +1,17 @@
-# Evolution Simulation App
+# Evolution Simulation
 
-Streamlit app simulating evolution of a population.
+This Streamlit app simulates the process of evolution across generations.
 
-## How to run locally
-1. Install dependencies:
-   pip install -r requirements.txt
-2. Run the app:
-   streamlit run EVOLUTION_SIMULATION_App_5.1.py
+### Controls
+- Population size
+- Number of generations
+- Mutation rate
+- Fitness function type
 
-## Deployment
-Deploy on [Streamlit Community Cloud](https://share.streamlit.io/)
+The environment changes after 30 generations, requiring adaptation.
+
+### How to run locally
+```bash
+pip install -r requirements.txt
+streamlit run EVOLUTION_SIMULATION_App_2.0.py
+```
